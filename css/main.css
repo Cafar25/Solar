@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+      background-image: url(https://images.pexels.com/photos/1205301/pexels-photo-1205301.jpeg?cs=srgb&dl=pexels-felix-mittermeier-1205301.jpg&fm=jpg);
+}
+.galaxy{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 350px;
+
+}
+.Star{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 100%;
+}
+.Mercury{
+    position:absolute;
+    display: flex;
+    width: 225px;
+    height: 225px;
+    border:1px solid  aqua;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;  
+}
+.Mercury .planet{
+    position: absolute;
+    display: flex;
+    width: 7.5px;
+    height: 7.5px;
+    animation: Mercury-A 7s linear infinite;
+}
+.Venus{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border:1px solid  aqua;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;  
+}
+.Venus .planet{
+    position: absolute;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    animation: Venus-A 12s linear infinite;
+}
+
+.Earth{
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    border:1px solid  aqua;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.Earth .planet{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    animation: Earth-A 18s linear infinite;
+}
+.Mars{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border:1px solid  aqua;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.Mars .planet{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    animation: Mars-A 25s linear infinite;
+}
+.Jupiter{
+    position: absolute;
+    width: 525px;
+    height: 525px;
+    border:1px solid  aqua;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.Jupiter .planet{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation: Jupiter-A 60s linear infinite;
+}
+.Saturn{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border:1px solid  aqua;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.Saturn .planet{
+    display: flex;
+    width: 45px;
+    height:45px;
+    position: absolute;
+    animation: Saturn-A 70s linear infinite;
+}
+.Uranus{
+    position: absolute;
+    width: 675px;
+    height: 675px;
+    border:1px solid  aqua;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.Uranus .planet{
+    display: flex;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    animation: Uranus-A 80s linear infinite;
+}
+.Neptune{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    border:1px solid aqua;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+}
+.Neptune .planet{
+    display: flex;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    animation: Neptune-A 100s linear infinite;
+}
+@keyframes Neptune-A {
+    0%{
+        transform: rotate(0deg) translate(375px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(375px) rotate(360deg);
+    }
+}
+@keyframes Uranus-A {
+    0%{
+        transform: rotate(0deg) translate(337.5px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(337.5px) rotate(360deg);
+    }
+}
+@keyframes Saturn-A {
+    0%{
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(300px) rotate(360deg);
+    }
+}
+@keyframes Jupiter-A {
+    0%{
+        transform: rotate(0deg) translate(262.5px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(262.5px) rotate(360deg);
+    }
+}
+@keyframes Mars-A {
+    0%{
+        transform: rotate(0deg) translate(225px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(225px) rotate(360deg);
+    }
+}
+@keyframes Earth-A {
+    0%{
+        transform: rotate(0deg) translate(187.5px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(187.5px) rotate(360deg);
+    }
+}
+@keyframes Venus-A {
+    0%{
+        transform: rotate(0deg) translate(150px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(150px) rotate(360deg);
+    }
+}
+@keyframes Mercury-A {
+    0%{
+        transform: rotate(0deg) translate(112.5px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(112.5px) rotate(360deg);
+    }
+}
